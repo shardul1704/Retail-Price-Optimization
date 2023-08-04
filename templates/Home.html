@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unit Price Prediction</title>
+</head>
+<body>
+    <h1>Unit Price Prediction</h1>
+    <form method="POST" action="/predict">
+        <label for="product_id">Product ID:</label>
+        <input type="text" id="product_id" name="product_id" required><br><br>
+        
+        <label for="total_price">Total Price:</label>
+        <input type="text" id="total_price" name="total_price" required><br><br>
+        
+        <label for="freight_price">Freight Price:</label>
+        <input type="text" id="freight_price" name="freight_price" required><br><br>
+        
+        <label for="customers">Number of Customers:</label>
+        <input type="text" id="customers" name="customers" required><br><br>
+        
+        <label for="comp1_diff">Comp1 Difference:</label>
+        <input type="text" id="comp1_diff" name="comp1_diff" required><br><br>
+        
+        <label for="comp2_diff">Comp2 Difference:</label>
+        <input type="text" id="comp2_diff" name="comp2_diff" required><br><br>
+        
+        <label for="comp3_diff">Comp3 Difference:</label>
+        <input type="text" id="comp3_diff" name="comp3_diff" required><br><br>
+        
+        <label for="fp1_diff">FP1 Difference:</label>
+        <input type="text" id="fp1_diff" name="fp1_diff" required><br><br>
+        
+        <label for="fp2_diff">FP2 Difference:</label>
+        <input type="text" id="fp2_diff" name="fp2_diff" required><br><br>
+        
+        <label for="fp3_diff">FP3 Difference:</label>
+        <input type="text" id="fp3_diff" name="fp3_diff" required><br><br>
+        
+        <label for="product_score">Product Score:</label>
+        <input type="text" id="product_score" name="product_score" required><br><br>
+        
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
